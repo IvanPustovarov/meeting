@@ -1,0 +1,70 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #18216D;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.nav{
+    display: flex;
+    margin-left: 10vw;
+}
+
+.nav > li {
+    margin-right: 50px;
+}
+
+.header{
+    display: flex;
+    width: 80vw;
+    height: 52px;
+    margin: 25px 10vw 0 10vw;
+    align-items: center;
+    font-weight: 500;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo > img {
+    width: 32px;
+    height: 32px;
+}
+.logo > div {
+    color: #18216D;
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+.register{
+    display: flex;
+    margin-left: auto;
+    height: 100%;
+}
+
+.sing-in{
+    padding-right: 30px;
+    padding-top: 18px;
+}
+
+.download{
+    height: 100%;
+    border: none;
+    background-color: #18216D;
+    color: white;
+    padding: 8px 25px 8px 25px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 6px;
+}
