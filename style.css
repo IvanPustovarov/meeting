@@ -21,6 +21,7 @@ body {
 
 .nav {
   display: flex;
+  margin-left: 100px;
 }
 
 .nav > li {
@@ -117,7 +118,7 @@ body {
 
 .statistics {
   display: flex;
-  margin-bottom: 100px ;
+  margin-bottom: 100px;
 }
 
 .statistics > h2 {
@@ -133,20 +134,18 @@ body {
 }
 
 .downloads {
-    margin-right: 100px;
+  margin-right: 100px;
 }
 
 .downloads-num {
-    font-weight: 700;
-    font-size: 60px;
+  font-weight: 700;
+  font-size: 60px;
 }
 
-.downloads-text{
-    font-weight: 400;
-    font-size: 16px;
+.downloads-text {
+  font-weight: 400;
+  font-size: 16px;
 }
-
-
 
 .downloads > div > img {
   width: 16px;
@@ -156,20 +155,155 @@ body {
 .rating {
 }
 
-.rating-num{
-    font-weight: 700;
-    font-size: 60px;
+.rating-num {
+  font-weight: 700;
+  font-size: 60px;
 }
 
 .rating-text {
-    font-weight: 400;
-    font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .rating > div > img {
-    width: 16px;
-    height: 16px;
-  }
+  width: 16px;
+  height: 16px;
+}
 
 .sponsors-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.airbnb {
+  width: 112px;
+  height: 34px;
+}
+
+.hubspot {
+  width: 105px;
+  height: 30px;
+}
+
+.google {
+  width: 105px;
+  height: 35px;
+}
+
+.microsoft {
+  width: 152px;
+  height: 32px;
+}
+
+.wallmart {
+  width: 138px;
+  height: 32px;
+}
+
+.fedex {
+  width: 100px;
+  height: 30px;
+}
+
+.our-special-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.special-features-header {
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.special-features-paragraph {
+  width: 550px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.special-features-banners {
+  display: flex;
+  margin-bottom: 75px;
+}
+
+.pricing {
+    margin-right: 75px;
+}
+.pricing > img {
+  width: 72px;
+  height: 72px;
+}
+
+.pricing > h3 {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.pricing > p {
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 20px;
+  width: 320px;
+}
+
+.pricing > span {
+}
+
+.reliability {
+    margin-right: 75px;
+}
+
+.reliability > img {
+  width: 56px;
+  height: 72px;
+}
+
+.reliability > h3 {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.reliability > p {
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 20px;
+  width: 320px;
+}
+
+.reliability > span {
+}
+
+.collaboration {
+}
+
+.collaboration > img {
+  width: 72px;
+  height: 72px;
+}
+
+.collaboration > h3 {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.collaboration > p {
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 20px;
+  width: 320px;
+}
+
+.collaboration > span {
 }
